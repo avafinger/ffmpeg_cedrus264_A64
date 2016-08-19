@@ -1,29 +1,19 @@
-# FFmpeg - H3 platform (Cedrus HW Encoder - CMOS Camera)
+# FFmpeg - A64 platform (Cedrus HW Encoder - CMOS Camera)
 
-FFmpeg with built in Cedrus264 HW Encoder for the H3 platform.
-This was build on Armbian and rootfs Ubuntu 14.04
+FFmpeg with built in Cedrus264 HW Encoder for the A64 platform.
+This was build on Ubuntu Xenial 16.04
 
 
 Dependencies
 ============
 
-	libx264
-	libv4l2
-	libpulse
-	libmp3lame
-	libv4lconvert
-	libjson-c
-	libpulsecommon-4.0
-	libjpeg
-	libFLAC
-	libvorbisenc
-	libvorbis
-	libogg
+	sudo apt-get install libmp3lame-dev libx264-dev libpulse-dev libv4ll2rds0
 
 
-Source Code
-===========
+Source Code and Instructions
+============================
 
+https://github.com/linux-sunxi/libcedrus
 https://github.com/uboborov/ffmpeg_h264_H3
 
 
@@ -41,4 +31,4 @@ Play the MP4 file with your preferred application
 
 Limitations
 ===========
- * Read the author notice 
+ * Read the author's notice - POC
