@@ -21,11 +21,11 @@ How to use it
 =============
 
 - Attach you CMOS camera
-- Clone the repo: git clone https://github.com/avafinger/ffmpeg_cedrus264_H3.git
-- cd ffmpeg_cedrus264_H3
+- Clone the repo: git clone https://github.com/avafinger/ffmpeg_cedrus264_A64.git
+- cd ffmpeg_cedrus264_A64
 - type: 
 
-	sudo ./ffmpeg -f v4l2 -channel 0 -video_size 640x480 -i /dev/video0 -pix_fmt nv12 -r 30 -b:v 64k -c:v cedrus264 test.mp4
+	sudo ./ffmpeg -f v4l2 -channel 0 -video_size 1024x720 -i /dev/video0 -pix_fmt nv12 -r 15 -qp 20 -b:v 64k -c:v cedrus264 test.mp4
 
 Play the MP4 file with your preferred application
 
