@@ -31,4 +31,4 @@ Play the MP4 file with your preferred application
 
 Limitations
 ===========
- * Read the author's notice - POC
+ * Read the author's note - POC
